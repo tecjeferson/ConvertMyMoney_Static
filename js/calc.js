@@ -3,7 +3,7 @@ $(function () {
         const cotacao = parseFloat($('#cotacao').val())
         const quantidade = parseFloat($('#quantidade').val())
         const resultado = cotacao * quantidade
-        $('#resultado').append(resultado)
+        $('#resultado').append(`R$ ${resultado},00`)
 
         if (resultado > 0) {
             $('#convert').click(function () {
