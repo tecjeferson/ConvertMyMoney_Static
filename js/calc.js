@@ -21,7 +21,7 @@ $(function () {
             return
         }
         if (quantidade == 0) {
-            alert('Entre com a quantidade de Dolares')
+            alert('Entre com o valor em Reais a ser convertido')
         } else {
 
         }
